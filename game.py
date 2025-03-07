@@ -7,6 +7,9 @@ import settings
 class Game:
     def __init__(self) -> None:
         self.matrix = [[0] * settings.COL_SIZE for _ in range(settings.ROW_SIZE)]  # Create a matrix with row and col sizes
+    
+    def clear(self) -> None:
+        self.matrix = [[0] * settings.COL_SIZE for _ in range(settings.ROW_SIZE)]  # Create a matrix with row and col sizes
 
     def handle_draw_input(self):
         mouse_input = pygame.mouse.get_pressed()

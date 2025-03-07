@@ -25,6 +25,8 @@ class Main:
             elif event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_SPACE:
                     self.pause_game = not self.pause_game
+                elif event.key == pygame.K_c:
+                    self.game.clear()
 
     def draw(self) -> None:
         self.display_surface.fill(settings.BACKGROUND_COLOR)
