@@ -29,6 +29,7 @@ python main.py
 ## How to play
 - Press left mosue click to draw and right mouse click to erase.
 - Use spacebar to resume/pause the game.
+- Press c to clear.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
