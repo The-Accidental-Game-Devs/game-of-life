@@ -34,8 +34,7 @@ class Main:
         pygame.display.update()
 
     def update(self) -> None:
-        self.clock.tick()
-
+        self.clock.tick(settings.FPS)
         self.game.handle_draw_input()
         if not self.pause_game:
             self.game_timer.update()

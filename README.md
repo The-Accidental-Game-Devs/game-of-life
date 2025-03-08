@@ -1,6 +1,8 @@
 # Game of Life
 A simple Python implementation of Conway's Game of Life using pygame-ce.
 
+![Showcase GIF](demo.gif)
+
 ## Installation
 1. Clone the repository:
 ```bash
